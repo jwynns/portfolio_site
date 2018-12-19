@@ -1,0 +1,19 @@
+{
+	"name": "portfolio_site",
+	"version": "1.0.0",
+	"description": "Responsive Portfolio Site",
+	"main": "Untitled-3.js",
+	"scripts": {
+		"sass": "node-sass -w scss/ -o dist/css --recursive"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jwynns/portfolio_site.git"
+	},
+	"author": "Joshua Wynns",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/jwynns/portfolio_site/issues"
+	},
+	"homepage": "https://github.com/jwynns/portfolio_site#readme"
+}
