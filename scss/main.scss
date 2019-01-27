@@ -117,18 +117,18 @@ main {
 	display: grid;
 	grid-gap: 0.7rem;
 	grid-template-columns: repeat(3, 1fr);
-
+  
 	img {
-		width: 100%;
-		border: 3px #fff solid;
-
-		&:hover {
-			opacity: 0.5;
-			border-color: $secondary-color;
-			@include easeOut;
-		}
+	  width: 100%;
+	  border: 3px #fff solid;
+  
+	  &:hover {
+		opacity: 0.5;
+		border-color: $secondary-color;
+		@include easeOut;
+	  }
 	}
-}
+  }
 
 // Contact Page
 .boxes {
@@ -139,7 +139,7 @@ main {
 	margin-top: 1rem;
 
 	div {
-		content: '\F9F2';2rem;
+		font-size: 2rem;
 		border: 3px #fff solid;
 		padding: 1.5 rem 2.5 rem;
 		margin-bottom: 3rem;
